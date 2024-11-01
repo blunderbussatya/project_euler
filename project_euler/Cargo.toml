@@ -1,0 +1,10 @@
+[package]
+name = "project_euler"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "50"
+
+[dependencies]
+utils = {path = "../utils" }
